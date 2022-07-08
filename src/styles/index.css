@@ -46,3 +46,9 @@ background-color: red;
 0 0 5px 10px #fff, /* inner white */
 0 0 20px 50px grey; /* outer cyan */
 }
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+}
