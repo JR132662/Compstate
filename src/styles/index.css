@@ -1,12 +1,48 @@
 
-/* 
+.container{
+    margin: auto;
+    width: 200px;
+    height: 500px;
+    background: black;
+    border-radius: 12px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+}
+.box{
+    border: 5px;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100px;
+    margin: 10px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.boxcontainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.green{
+background-color: green;
+}
+
+.yellow{
+background-color: yellow;
+}
+
+.red{
+background-color: red;
+}
+.selected{
+    box-shadow:
+0 0 5px 10px #fff, /* inner white */
+0 0 20px 50px grey; /* outer cyan */
+}
